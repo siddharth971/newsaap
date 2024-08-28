@@ -3,11 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 export default class Navbar extends Component {
+   
     render() {
         return (
             <div>
                 <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#e3f2fd' }}
- >
+                >
                     <div className="container-fluid">
                         <a className="navbar-brand" href="/">Apna News</a>
                         <button
@@ -25,7 +26,7 @@ export default class Navbar extends Component {
                             <div className="navbar-nav">
                                 <a className="nav-link active" aria-current="page" href="/">Home</a>
                                 <a className="nav-link" href="/features">Features</a>
-                               
+
                             </div>
                         </div>
                     </div>
